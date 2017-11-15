@@ -11,7 +11,7 @@ Améliorer la mise en page pour tablette + desktop, et le support de l'impressio
 ## Instructions
 1. **Ajouter une balise `viewport` pour la prise en charge correcte des Media Queries.**
 2. **En paysage, le menu ne doit pas être en position fixed (pour gagner de l'espace en hauteur)**
-3. **Coder la version desktop (device-width > 1024) :**
+3. **Coder la version desktop (width > 1024) :**
 	- ajuster la taille des textes
 	- afficher le menu et masquer la flèche à côté du logo
 	- afficher le bouton d'envoi du formulaire
