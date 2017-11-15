@@ -1,29 +1,32 @@
 @font-face {
 	font-family: 'Circular';
 	src: url('Circular_Air-Book.woff2') format('woff2'), /* Navigateurs récents */
-		url('Circular_Air-Book.woff') format('woff')
+	url('Circular_Air-Book.woff') format('woff')
 }
 @font-face {
 	font-family: 'Circular';
 	src: url('Circular_Air-Bold.woff2') format('woff2'), /* Navigateurs récents */
-		url('Circular_Air-Bold.woff') format('woff');
+	url('Circular_Air-Bold.woff') format('woff');
 	font-weight:700;
 }
 @font-face {
 	font-family: 'Circular';
 	src: url('Circular_Air-Light.woff2') format('woff2'), /* Navigateurs récents */
-		url('Circular_Air-Light.woff') format('woff');
+	url('Circular_Air-Light.woff') format('woff');
 	font-weight:300
 }
+* {
+	box-sizing: border-box;
+}
 
+body, body > header {
+	padding: 15px 24px;
+}
 body {
 	color: #484848;
 	font-family: Circular, Arial, sans-serif;
 	font-size: 15px;
-	padding: 40px;
-}
-* {
-	box-sizing: border-box;
+	padding-top: 70px;
 }
 a {
 	color: #484848;
@@ -31,28 +34,60 @@ a {
 }
 ul {
 	list-style-type: none;
-	margin: 0;
 	padding: 0;
+	margin: 0;
 }
-body > header {
+header {
 	font-size: 14px;
 }
+body > header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+
+	background-color: #ffffff;
+}
 body > header nav a.logo {
+	position: relative;
+	display: inline-block;
 	color: #FF5A5F;
-	font-size: 25px;
+	font-size: 34px;
+}
+body > header nav a.logo::after {
+	position: absolute;
+	left: 120%;
+	top: 50%;
+	transform: translateY(-50%) scaleY(0.4);
+	content: "v";
+	font-size: 20px;
+	font-weight: lighter;
+	color: #484848;
+}
+body > header nav ul {
+	display: none;
 }
 h1 {
-	font-size: 48px;
-	font-weight: normal;
+	font-size: 25px;
+	font-weight: lighter;
+	margin-top: 80px;
 }
 h1 strong {
 	display: block;
+	font-weight: bold;
 	color: #FF5A5F;
 }
-form {
+h2 {
+	margin-top: 50px;
+	font-size: 25px;
+}
+h3 {
 	font-size: 19px;
+}
+form {
+	font-size: 15px;
 	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
-	padding: 20px;
+	padding: 15px;
 	border: 1px solid #DBDBDB;
 	border-radius: 4px;
 }
@@ -60,17 +95,7 @@ form input {
 	border: none;
 }
 form button {
-	border: none;
-	border-radius: 4px;
-	background-color: #FF5A5F;
-	padding: 15px;
-	color: #ffffff;
-}
-h2 {
-	font-size: 32px;
-}
-h3 {
-	font-size: 19px;
+	display: none;
 }
 .thumbnail {
 	width: 100%;
@@ -92,7 +117,7 @@ section li a h3 {
 	margin: 2px 0;
 }
 section.explore {
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: bold;
 }
 section.explore li a {
@@ -102,15 +127,15 @@ section.explore li a {
 	padding: 10px;
 }
 section.explore li a .thumbnail {
-	height: 72px;
+	height: 68px;
 }
 
 section.experience li a .thumbnail {
-	height: 164px;
+	height: 105px;
 }
 section.homes li a .thumbnail {
-	height: 222px;
+	height: 142px;
 }
 section.featured li a .thumbnail {
-	height: 237px;
+	height: 151px;
 }
