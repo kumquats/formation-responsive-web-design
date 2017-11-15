@@ -20,12 +20,16 @@ les blocs à coder sont :
 	- la barre de navigation avec le logo et les liens du menu
 	- le header avec le titre du site et le formulaire de recherche (sans le formulaire détaillé qui s'affiche lorsque l'on met le focus dans le champ de saisie)
 	- les bandeaux "Explorer Airbnb", "Expériences", "Logements" et "Destinations à la une"<br>
-	- le footer<br>
 	*NB: les flèches de navigation des sliders ne sont pas nécessaires*
 
 2. **Coder les premiers styles de base du site (la mise en page sera réalisée dans les prochains TPs) :**
-	- police de caractère, taille et couleur des texte
-	- styles des boutons
+	- inclure [Normalize.css](http://necolas.github.io/normalize.css/) pour s'assurer d'une base de styles identique sur tous les navigateurs
+	- télécharger en local et inclure la police d'Air bnb (uniquement pour l'exercice, cette typo n'est pas libre de droits !) :
+		- [format woff2](https://a0.muscache.com/airbnb/static/airbnb-o2/fonts/Circular_Air-Book-e94c982d7dee01d7e4424157ac9ed819.woff2) et [format woff](https://a0.muscache.com/airbnb/static/airbnb-o2/fonts/Circular_Air-Book-030dcebde359eb3be354ab21c34a89ce.woff)
+		- [bold woff2](https://a0.muscache.com/airbnb/static/airbnb-o2/fonts/Circular_Air-Bold-367d5e0d3e7021de6510f7824d33188f.woff2) et [bold woff](https://a0.muscache.com/airbnb/static/airbnb-o2/fonts/Circular_Air-Bold-ba3e389678777af817295255589ca6f5.woff)
+		- [Light woff2](https://a0.muscache.com/airbnb/static/airbnb-o2/fonts/Circular_Air-Light-fa2e694fc4a7eb77a6aecccef03a757d.woff2) et [Light woff](https://a0.muscache.com/airbnb/static/airbnb-o2/fonts/Circular_Air-Light-5f8705e686deab27d58b7cf0e6d5cfa2.woff)
+	- appliquer les polices de caractères aux différents textes et régler leur taille et couleur
+	- styles du formulaire (ombre, bouton)
 
 
 ## Pour aller plus loin
