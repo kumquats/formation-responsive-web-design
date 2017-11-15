@@ -20,7 +20,7 @@ les blocs à coder sont :
 	- la barre de navigation avec le logo et les liens du menu
 	- le header avec le titre du site et le formulaire de recherche (sans le formulaire détaillé qui s'affiche lorsque l'on met le focus dans le champ de saisie)
 	- les bandeaux "Explorer Airbnb", "Expériences", "Logements" et "Destinations à la une"<br>
-	- le footer
+	- le footer<br>
 	*NB: les flèches de navigation des sliders ne sont pas nécessaires*
 
 2. **Coder les premiers styles de base du site (la mise en page sera réalisée dans les prochains TPs) :**
@@ -30,7 +30,7 @@ les blocs à coder sont :
 
 ## Pour aller plus loin
 1. Intégrer une icon font comme [font-awesome](http://fontawesome.io/icons/) pour ajouter une icône "loupe" devant le formulaire de recherche.
-2. Coder une fonction JavaScript qui détecte si l'utilisateur qui visite le site utilise ios ou android pour afficher un bandeau l'invitant à télécharger l'app ios ou android selon l'OS mobile dont il dispose. La détection de l'os peut se faire grâce au User-Agent, qui peut être récupéré en JavaScript grâce à la propriété `navigator.userAgent` :
+2. Coder une fonction JavaScript qui détecte si l'utilisateur qui visite le site utilise ios ou android pour afficher un bandeau l'invitant à télécharger l'app ios ou android selon l'OS mobile dont il dispose. La détection de l'OS peut se faire grâce au User-Agent, qui peut être récupéré en JavaScript grâce à la propriété `navigator.userAgent` :
 ```js
-console.log(navigator.userAgent);
+console.log( navigator.userAgent );
 ```
