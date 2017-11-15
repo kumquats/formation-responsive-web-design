@@ -20,6 +20,7 @@ body {
 	color: #484848;
 	font-family: Circular, Arial, sans-serif;
 	font-size: 15px;
+	padding: 40px;
 }
 * {
 	box-sizing: border-box;
@@ -30,11 +31,13 @@ a {
 }
 ul {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
-header {
+body > header {
 	font-size: 14px;
 }
-header nav a.logo {
+body > header nav a.logo {
 	color: #FF5A5F;
 	font-size: 25px;
 }
@@ -43,6 +46,7 @@ h1 {
 	font-weight: normal;
 }
 h1 strong {
+	display: block;
 	color: #FF5A5F;
 }
 form {
@@ -50,6 +54,7 @@ form {
 	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
 	padding: 20px;
 	border: 1px solid #DBDBDB;
+	border-radius: 4px;
 }
 form input {
 	border: none;
@@ -91,6 +96,7 @@ section.explore {
 	font-weight: bold;
 }
 section.explore li a {
+	font-weight: bold;
 	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
 	border: 1px solid #DBDBDB;
 	padding: 10px;
