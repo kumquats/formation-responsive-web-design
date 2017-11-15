@@ -1,6 +1,6 @@
 
 /* styles desktop issus du précédent tp */
-/*
+
 body {
 	color: #484848;
 	font-family: Circular, Arial, sans-serif;
@@ -21,7 +21,7 @@ header {
 }
 header nav a.logo {
 	color: #FF5A5F;
-	font-size: 25px;
+	font-size: 34px;
 }
 h1 {
 	font-size: 48px;
@@ -92,4 +92,4 @@ section.homes li a .thumbnail {
 }
 section.featured li a .thumbnail {
 	height: 237px;
-}*/
+}
