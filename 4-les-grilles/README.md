@@ -23,4 +23,4 @@ Mettre en place une grille CSS pour gérer l'affichage en colonne des différent
 	- Pour que la propriété `flex-grow` donne le résultat attendu, vous aurez à utiliser la propriété `flex-basis:0;`
 
 ## Pour aller plus loin
-2. **Reproduire la grille avec les CSS Grids**
+3. **Reproduire la grille avec les CSS Grids**
