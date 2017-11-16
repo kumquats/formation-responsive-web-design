@@ -211,12 +211,12 @@ section.featured li a .thumbnail {
 	@page {
 		margin: 0.5cm;
 	}
-	h1, h2, h3 {
+	section > header {
 		page-break-after:avoid;
-		page-break-inside:avoid
+		page-break-inside:avoid;
 	}
 	section li a {
-		page-break-inside:avoid
+		page-break-inside:avoid;
 	}
 
 }
