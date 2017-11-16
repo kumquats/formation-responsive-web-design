@@ -11,8 +11,9 @@ Débuter la mise en place de la css mobile du site dans l'objectif d'appliquer l
 ## Instructions
 1. **dupliquer et commenter la CSS actuelle (ou copier/coller votre code CSS dans un autre fichier, nous nous en serviront plus tard)**
 2. **Modifier les styles des textes,  pour correspondre à la version mobile de la page d'accueil Airbnb.** <br>
-*NB: Pour consulter la version mobile vous pouvez utiliser le mode responsive des devtools de Google Chrome.*<br>
-*Notez également qu'en version mobile, on n'a pas besoin d'effet `:hover`..."
+*Notez également qu'en version mobile, on n'a pas besoin d'effet `:hover`...*<br>
+**NB:** *Pour consulter la version mobile vous pouvez utiliser le mode responsive des devtools de Google Chrome.*<br>
+**Attention : Pour visualiser votre version, n'utilisez pas le mode responsive des devtools de Chrome : votre site n'est pas (encore) responsive (il faudra attendre le prochain chapitre), à la place redimensionnez la fenêtre !**
 
 
 ## Pour aller plus loin
