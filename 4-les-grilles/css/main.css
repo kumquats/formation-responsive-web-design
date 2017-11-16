@@ -156,6 +156,9 @@ section.featured li a .thumbnail {
 		padding-right: 40px;
 	}
 	body > header nav ul {
+		display: initial;
+	}
+	body > header nav a.logo::after {
 		display: none;
 	}
 	h1 {
