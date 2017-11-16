@@ -18,14 +18,16 @@
 * {
 	box-sizing: border-box;
 }
-
+html {
+	font-size: 16px;
+}
 body, body > header {
 	padding: 15px 24px;
 }
 body {
 	color: #484848;
 	font-family: Circular, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 0.9375rem;
 	padding-top: 70px;
 }
 a {
@@ -38,7 +40,7 @@ ul {
 	margin: 0;
 }
 header {
-	font-size: 14px;
+	font-size: 0.875rem;
 }
 body > header {
 	position: fixed;
@@ -52,7 +54,7 @@ body > header nav a.logo {
 	position: relative;
 	display: inline-block;
 	color: #FF5A5F;
-	font-size: 34px;
+	font-size: 2.125rem;
 }
 body > header nav a.logo::after {
 	position: absolute;
@@ -60,7 +62,7 @@ body > header nav a.logo::after {
 	top: 50%;
 	transform: translateY(-50%) scaleY(0.4);
 	content: "v";
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-weight: lighter;
 	color: #484848;
 }
@@ -68,7 +70,7 @@ body > header nav ul {
 	display: none;
 }
 h1 {
-	font-size: 25px;
+	font-size: 1.563rem;
 	font-weight: lighter;
 	margin-top: 80px;
 }
@@ -79,13 +81,13 @@ h1 strong {
 }
 h2 {
 	margin-top: 50px;
-	font-size: 25px;
+	font-size: 1.563rem;
 }
 h3 {
-	font-size: 19px;
+	font-size: 1.188rem;
 }
 form {
-	font-size: 15px;
+	font-size: 0.963rem;
 	box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
 	padding: 15px;
 	border: 1px solid #DBDBDB;
@@ -108,7 +110,7 @@ section li a {
 }
 
 section li a strong, section li a .ratings {
-	font-size: 12px;
+	font-size: 0.75rem;
 }
 section li a strong {
 	font-weight: bold;
@@ -117,7 +119,7 @@ section li a h3 {
 	margin: 2px 0;
 }
 section.explore {
-	font-size: 15px;
+	font-size: 0.9375rem;
 	font-weight: bold;
 }
 section.explore li a {
@@ -182,6 +184,9 @@ section.featured > ul li:nth-child(3n+2), section.featured > ul li:nth-child(3n+
 }
 
 @media screen and (min-width: 1024px){
+	html {
+		font-size: 20px;
+	}
 	body {
 		padding-left: 40px;
 		padding-right: 40px;
@@ -193,12 +198,10 @@ section.featured > ul li:nth-child(3n+2), section.featured > ul li:nth-child(3n+
 		display: none;
 	}
 	h1 {
-		font-size: 48px;
 		font-weight: normal;
 	}
 	form {
 		padding: 15px;
-		font-size: 19px;
 	}
 	form button {
 		display: initial;
@@ -207,12 +210,6 @@ section.featured > ul li:nth-child(3n+2), section.featured > ul li:nth-child(3n+
 		background-color: #FF5A5F;
 		padding: 15px;
 		color: #ffffff;
-	}
-	h2 {
-		font-size: 32px;
-	}
-	h3 {
-		font-size: 19px;
 	}
 
 	section.explore li a .thumbnail {
