@@ -13,7 +13,7 @@ Reproduire le layout de la page en utilisant un framework CSS.
 
 ## Instructions
 1. **Utiliser les classes de grille de bootstrap pour reproduire le layout de la version mobile puis desktop.**
-	- il faudra donc modifier le fichier html pour y ajouter des classes bootstrap
+	- NB : il faudra modifier le fichier html pour y ajouter des classes bootstrap !
 2. **Utiliser les classes utilitaires [Flex](https://getbootstrap.com/docs/4.0/utilities/flex/) de Bootstrap pour positionner les différents éléments qui ne sont pas déjà gérés via la grille :**
 	- formulaire
 	- headers des blocs
