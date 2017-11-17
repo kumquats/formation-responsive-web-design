@@ -163,7 +163,7 @@ section.experience > ul, section.featured > ul {
 	justify-content: space-between;
 }
 section.experience > ul > li {
-	width: calc( 50% - 5px); /* marge de 2*5px = 10px */
+	width: calc( 50% - 5px ); /* marge de 2*5px = 10px */
 }
 section.homes > ul {
 	flex-direction: column;
