@@ -147,6 +147,11 @@ form {
 form input {
 	flex-grow: 1;
 }
+section > header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
 section > ul {
 	display: flex;
 }
@@ -301,11 +306,6 @@ section.featured > ul li:nth-child(3n+2), section.featured > ul li:nth-child(3n+
 	}
 	section > ul > li:first-child {
 		margin-left: 0;
-	}
-	section > header {
-		display: flex;
-		justify-content: space-between;
-		align-items: baseline;
 	}
 
 }
