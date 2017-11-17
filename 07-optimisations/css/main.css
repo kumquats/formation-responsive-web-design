@@ -142,7 +142,7 @@ section.featured li a .thumbnail {
 	height: 151px;
 }
 
-/* flexbox mobile */
+/* plus besoin de flexbox mobile, les classes bootstrap s'en chargent */
 
 @media screen and (orientation: landscape), screen and (min-width: 1024px) {
 	body {

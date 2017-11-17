@@ -162,22 +162,18 @@ section.explore > ul {
 }
 section.experience > ul, section.featured > ul {
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 section.experience > ul > li {
-	width: 48%;
-}
-section.experience > ul > li:nth-child(2n) {
-	margin-left: 4%;
+	width: calc( 50% - 5px ); /* marge de 2*5px = 10px */
 }
 section.homes > ul {
 	flex-direction: column;
 }
-section.featured > ul li {
-	width: 30%;
+section.featured > ul > li {
+	width: calc(33.333% - 7px); /* 3 éléments par ligne => 3*7 = 21px d'epace vide => 2 marges de ~10px */
 }
-section.featured > ul li:nth-child(3n+2), section.featured > ul li:nth-child(3n+3){
-	margin-left: 5%;
-}
+
 @media screen and (orientation: landscape), screen and (min-width: 1024px) {
 	body {
 		padding-top: 15px;
@@ -270,9 +266,7 @@ section.featured > ul li:nth-child(3n+2), section.featured > ul li:nth-child(3n+
 	section.featured > ul > li {
 		width: auto;
 	}
-	section.experience > ul > li:nth-child(2n),
-	section.featured > ul li:nth-child(3n+2),
-	section.featured > ul li:nth-child(3n+3) {
+	section > ul > li:not(:first-child) {
 		margin-left: 10px;
 	}
 	section.explore > ul > li {
@@ -298,14 +292,6 @@ section.featured > ul li:nth-child(3n+2), section.featured > ul li:nth-child(3n+
 	section.featured > ul > li {
 		flex-grow: 2;
 	}
-	section > ul > li {
-		margin-left: 10px;
-	}
-	section > ul > li:first-child {
-		margin-left: 0;
-	}
-
-
 }
 @media print {
 	h1 {
