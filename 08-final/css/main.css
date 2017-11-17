@@ -218,6 +218,9 @@ section.featured li a .thumbnail {
 	section li a {
 		page-break-inside:avoid
 	}
+	a:after {
+		content: "( "attr(href)" )";
+	}
 }
 @media (hover:hover){
 	form button {
